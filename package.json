@@ -2,7 +2,7 @@
   "name": "fnf-strapi-backend",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "FNF Strapi application",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -12,9 +12,8 @@
   "devDependencies": {},
   "dependencies": {
     "knex": "<0.20.0",
-    "pg": "^8.5.1",
+    "pg": "latest",
     "pg-connection-string": "^2.4.0",
-    "sqlite3": "5.0.0",
     "strapi": "3.4.5",
     "strapi-admin": "3.4.5",
     "strapi-connector-bookshelf": "3.4.5",
@@ -29,7 +28,7 @@
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "ed939948-0d07-4600-8185-e371e01a3a48"
+    "uuid": "ce115aa0-81fb-4268-ae78-ee43f9269353"
   },
   "engines": {
     "node": ">=10.16.0 <=14.x.x",
