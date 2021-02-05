@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "types",
+  "info": {
+    "name": "type"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "label": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "categories": {
+      "collection": "category"
+    },
+    "journeys": {
+      "via": "type",
+      "collection": "journey"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "journeys",
+  "info": {
+    "name": "journey",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "description": {
+      "type": "richtext"
+    },
+    "type": {
+      "model": "type",
+      "via": "journeys"
+    },
+    "steps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "journeys.routes"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

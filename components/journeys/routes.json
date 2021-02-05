@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_journeys_routes",
+  "info": {
+    "name": "Routes",
+    "icon": "car-side",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "step": {
+      "model": "step"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

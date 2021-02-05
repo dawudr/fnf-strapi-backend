@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_journeys_journeys",
+  "info": {
+    "name": "Journey",
+    "icon": "map-marked-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "journey": {
+      "model": "journey"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}
