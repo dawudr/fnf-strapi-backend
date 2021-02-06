@@ -6,8 +6,9 @@
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
-    "build": "strapi build && npm install --plugins",
-    "strapi": "strapi"
+    "build": "strapi build",
+    "strapi": "strapi",
+    "postinstall": "npm install --prefix plugins/content-export-import"
   },
   "devDependencies": {},
   "dependencies": {
