@@ -5,9 +5,10 @@ Installation of Strapi console and API service on your machine.
 
 ## Requirements
 
-Node.js >= 10.x installed on your machine
-NPM >= 6.x installed on your machine
-PostgreSQL installed on your machine
+Node.js >= 10.x installed on your machine<br/>
+NPM >= 6.x installed on your machine<br/>
+
+PostgreSQL installed on your machine<br/>
 
 
 # Getting started
