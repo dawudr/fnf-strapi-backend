@@ -113,3 +113,18 @@ GRANT ALL PRIVILEGES ON DATABASE dbname TO db_user;
 
 
 ```
+
+
+---
+
+# Strapi plugin content-export-import
+
+Checkout plugin code from into /plugins folder from
+
+https://github.com/lazurey/strapi-plugin-content-export-import
+
+
+To install:
+```
+npm install --plugins
+```
