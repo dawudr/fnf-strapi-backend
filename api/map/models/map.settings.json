@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "maps",
   "info": {
-    "name": "map"
+    "name": "map",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -27,6 +28,12 @@
       "type": "component",
       "repeatable": true,
       "component": "journeys.journey"
+    },
+    "title": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
     }
   }
 }
