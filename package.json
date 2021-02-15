@@ -23,7 +23,8 @@
     "strapi-plugin-graphql": "^3.4.6",
     "strapi-plugin-upload": "3.4.6",
     "strapi-plugin-users-permissions": "3.4.6",
-    "strapi-utils": "3.4.6"
+    "strapi-utils": "3.4.6",
+    "file-saver": "2.0.5"
   },
   "author": {
     "name": "Harrow Fnf Team"
