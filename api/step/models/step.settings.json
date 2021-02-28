@@ -26,6 +26,15 @@
     },
     "articles": {
       "collection": "article"
+    },
+    "title": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
     }
   }
 }
