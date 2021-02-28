@@ -7,8 +7,8 @@
   },
   "options": {},
   "attributes": {
-    "steps": {
-      "collection": "step"
+    "step": {
+      "model": "step"
     },
     "name": {
       "type": "string"
