@@ -1,3 +1,4 @@
+// Path: ./config/env/production/database.js
 const parse = require('pg-connection-string').parse;
 const config = parse(process.env.DATABASE_URL);
 
@@ -13,12 +14,10 @@ module.exports = ({ env }) => ({
         database: config.database,
         username: config.user,
         password: config.password,
-        ssl: {
-          rejectUnauthorized: false
-        }
+        ssl: false
       },
       options: {
-        ssl: true,
+        ssl: false,
       },
     },
   },
